@@ -94,7 +94,7 @@ echo "\n";
         echo color("blue","👀 ");
         sleep(10);
         }
-         $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI3"}');
+         $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"YEARENDSALE"}');
         $message = fetch_value12($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
@@ -108,7 +108,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(10);
         }
-        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI5"}');
+        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"YEARENDSALE"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","👍🙏 Message: ".$message);
@@ -122,7 +122,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(10);
         }
-        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI6"}');
+        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARBOLNASMART"}');
         $message = fetch_value12($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
@@ -136,7 +136,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(10);
         }
-        $code1 = requested('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI4"}');
+        $code1 = requested('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOJ3KAMAN"}');
         $message = fetch_value1($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","👍🙏 Message: ".$message);
